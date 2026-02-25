@@ -1,0 +1,49 @@
+# ----------------------
+# Python & Virtual Env
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# ----------------------
+# Environment Variables (Chứa key/pass nhạy cảm)
+# ----------------------
+.env
+.env.local
+
+# ----------------------
+# IDE / Editor Settings
+# ----------------------
+.vscode/
+.idea/
+*.swp
+
+# ----------------------
+# OS System Files
+# ----------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ----------------------
+# Project Logs & Outputs
+# ----------------------
+*.log
+*.csv
+dataset_mining_final_v2.csv
+etl_export*.py
+gen_*.py
+run_sql_files.py
+etl_export.py
+check_data.py
+test_.py
+fix_.py
+check_data.py
+test_connection.py
+etl_v2.py
+
+cleandata*.py
