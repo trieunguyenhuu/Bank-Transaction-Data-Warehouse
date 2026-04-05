@@ -14,7 +14,7 @@ DRIVER = '{ODBC Driver 18 for SQL Server}'
 SERVER_NAME = 'localhost'
 DATABASE_NAME = 'DW_Bank'
 USERNAME = 'sa'
-PASSWORD = 'Trieu123'  # <--- Kiểm tra lại mật khẩu của bạn
+PASSWORD = 'pass'  # <--- Kiểm tra lại mật khẩu của bạn
 
 connection_string = f"DRIVER={DRIVER};SERVER={SERVER_NAME};DATABASE={DATABASE_NAME};UID={USERNAME};PWD={PASSWORD};Encrypt=no;"
 quoted_conn_str = urllib.parse.quote_plus(connection_string)
